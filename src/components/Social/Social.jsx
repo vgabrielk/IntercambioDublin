@@ -5,11 +5,11 @@ const Social = () => {
 
     let social = [
     {
-        id:1,  rede:'Instagram', icon: <i className="fab fa-instagram"></i>
+        id:1, link:'https://instagram.com/viniciustica09',  rede:'Instagram', icon: <i className="fab fa-instagram"  ></i>
     },    {
-        id:2,  rede:'Linkedin', icon: <i className="fab fa-linkedin"></i>
+        id:2, link:'https://www.linkedin.com/in/bruno-vinicius-459a34127/',  rede:'Linkedin', icon: <i className="fab fa-linkedin"></i>
     },    {
-        id:3,  rede:'Whatsapp', icon:<i className="fab fa-whatsapp"></i>
+        id:3, link:'https://api.whatsapp.com/send?phone=5581995565126&text=Go%20Dulin',  rede:'Whatsapp', icon:<i className="fab fa-whatsapp"></i>
     }
 ]
     return ( 
@@ -26,7 +26,7 @@ Me sigam nas redes sociais e veja o passo a passo de tudo nesta jornada.</h6>
 
                 {social.map((index)=>
                         <div className="col-sm-12 col-md-4 col-lg-4 acenter" key={index.id} data-aos="fade-right">
-                <a href="" className="button-social" data-aos="fade"> {index.rede} {index.icon}</a>
+                <a href={index.link} className="button-social" data-aos="fade"> {index.rede} {index.icon}</a>
                         </div>
                 )}
                     </div>

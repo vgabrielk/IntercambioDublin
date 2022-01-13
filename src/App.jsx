@@ -14,6 +14,9 @@ import Donation from './components/Donation/Donation';
 import MapDublin from './components/MapDublin/MapDublin';
 import Count from './components/CountDown/Count';
 import Social from './components/Social/Social';
+import Bruno from './components/Bruno/Bruno';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
 
@@ -39,7 +42,8 @@ function App() {
         <Main/>
         <Social/>
         <MapDublin/>
-        
+        <Bruno/>
+        <Footer/>
     </>
   );
 }
