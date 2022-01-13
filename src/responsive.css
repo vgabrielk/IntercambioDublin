@@ -1,0 +1,8 @@
+@media(max-width:575px)
+{
+
+    .modal-body p 
+    {
+        font-size: .9rem!important;
+    }
+}

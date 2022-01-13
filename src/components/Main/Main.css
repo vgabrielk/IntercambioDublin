@@ -1,0 +1,25 @@
+
+.main
+ {
+     height: auto;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding: 2rem;
+     margin-top: 2rem;
+     background: rgba(255, 255, 255, 0.856);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+ }
+ .main h2 
+ {
+     color: #00ff00;
+     border-bottom: .5px solid gray;
+ }
+ .main p 
+ {
+     color: #000;
+     font-size: 1rem;
+     text-align: justify;
+ }

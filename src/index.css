@@ -1,0 +1,17 @@
+body 
+{
+    background-color: #222;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+body::-webkit-scrollbar 
+{
+    width: 6px;
+    background-color: #fff;
+
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #ff7200;
+    border-radius: 12px;
+}

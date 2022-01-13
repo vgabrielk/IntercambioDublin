@@ -1,0 +1,96 @@
+.donation 
+{
+    height: auto;
+}
+.donation-qrcode 
+{
+  color: #00ff00;
+}
+.donation-qrcode p
+{
+  color: #000;
+  text-align: center;
+  
+}
+.balao
+{
+  color: #00ff00;
+  position: fixed;
+  z-index: 10;
+  font-size: 4rem;
+  top: 50%;
+  right: 10px;
+  border-radius: 50%;
+  animation: balao 1s alternate infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donation-button 
+{
+    border: none;
+    background:none;
+}
+
+.green 
+{
+  color: #00ff00!important;
+  font-style: normal;
+}
+.qrcode-vakinha 
+{
+  width: 190px;
+}
+#modal
+{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 280px;
+    top: 0;
+    right: 0;
+    background-color: #00ff00;
+    z-index: 5 ;
+    padding: 2rem;
+    animation: modal 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.modal-header 
+{
+  display: flex;
+  flex-direction: column;
+}
+.modal-body p 
+{
+  font-style: italic;
+  font-size: 1rem;
+}
+b 
+{
+  font-size: 1rem;
+  color: #ff7200;
+  font-style: italic;
+}
+@keyframes balao 
+{
+  from 
+  {
+    transform: translateY(20px);
+  }
+  to 
+  {
+    transform: translateY(0px);
+  }
+}
+@keyframes modal 
+{
+  from 
+  {
+    transform: translateX(400px);
+  }
+  to 
+  {
+    transform: translateX(0);
+  }
+}

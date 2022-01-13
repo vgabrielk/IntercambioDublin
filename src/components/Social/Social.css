@@ -1,0 +1,71 @@
+.social 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-buttons 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.button-social 
+{
+    border-radius: 4px;
+    border: 1px solid #b8b8b8;
+    background-color: #f7f5f5;
+    height: 40px;
+    width: 200px;
+    margin: 0 8px 16px;
+    color: #000;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+.button-social i 
+{
+    margin-left: 1rem;
+}
+.button-social .fa-linkedin
+{
+    color: blue;
+}
+.button-social .fa-whatsapp
+{
+    color: #00ff00;
+}
+.button-social .fa-instagram
+{
+    color: rgb(255, 0, 64);
+}
+.button-social:hover 
+{
+    transform: translateY(-10%);
+    transition: .3s;
+    box-shadow: -0px -0px 25px 0  rgba(8, 8, 8, 0.445);
+    bottom: -4px;
+}
+.social-texts 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.social-texts h6, .social-texts h3
+{
+    text-align: center;
+    width: 100%;
+}
+.acenter 
+{
+    display: flex;
+    justify-content: center;
+}
