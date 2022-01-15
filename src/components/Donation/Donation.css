@@ -20,6 +20,7 @@
   font-size: 4rem;
   top: 50%;
   width: 50px;
+  height: 100px;
   right: 5px;
   border-radius: 50%;
   animation: balao 1s alternate infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);
@@ -31,6 +32,8 @@
 {
     border: none;
     background:none;
+    width: 180px;
+    height: 180px;
 }
 
 .green 

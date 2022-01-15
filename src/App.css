@@ -39,3 +39,9 @@ h3
 {
   color: #00ff00;
 }
+img 
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}

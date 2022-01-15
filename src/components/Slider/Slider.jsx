@@ -7,10 +7,10 @@ const Slider = () => {
 
     let slider = [
 
-            {id:1, link:'https://intercambio-dublin.netlify.app/assets/guillaume-henrotte-zBDWByAzAM0-unsplash.jpg', name:'The Dublin City Center'},
-            {id:2, link:'https://intercambio-dublin.netlify.app/assets/jason-murphy-rTG1TR6Ygb0-unsplash.jpg', name:'The Cork City Center'},
-            {id:3, link:'https://intercambio-dublin.netlify.app/assets/ruben-xove-EdY6yWGleaE-unsplash.jpg', name:'Connemara - Abadia de Kylemore'},
-            {id:4, link:'https://intercambio-dublin.netlify.app/assets/diogo-palhais-tnzzr8HpLhs-unsplash.jpg', name:'The Temple Bar - Dublin !!!!'}
+            {id:1, link:'https://zealous-galileo-5ca44c.netlify.app/dublincenter.webp', name:'The Dublin City Center'},
+            {id:2, link:'https://zealous-galileo-5ca44c.netlify.app/corkcenter.jpg.webp', name:'The Cork City Center'},
+            {id:3, link:'https://zealous-galileo-5ca44c.netlify.app/conemara.webp', name:'Connemara - Abadia de Kylemore'},
+            {id:4, link:'https://zealous-galileo-5ca44c.netlify.app/templebar.webp', name:'The Temple Bar - Dublin !!!!'}
 
     ]
     return (  

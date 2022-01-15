@@ -54,5 +54,6 @@
     background-color: #f7f5f5;
     color: #000;
     border: 1px solid #b8b8b8;
-    outline: none;
+    outline: none!important;
+    box-shadow: 0!important;
 }

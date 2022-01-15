@@ -30,7 +30,6 @@ function App() {
 
       <nav className="nav">
         <div className="nav__img">
-           <img src="https://cdn-icons.flaticon.com/png/128/2622/premium/2622542.png?token=exp=1641884572~hmac=d9b3256750f084e84d75e9747833675d" alt="" className='App-logo' />
         </div>
         <div className="nav__right">
     <a href='https://instagram.com/viniciustica09'>@viniciustica09</a>

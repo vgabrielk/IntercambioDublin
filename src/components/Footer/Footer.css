@@ -1,6 +1,42 @@
 .footer 
 {
-    height: 30vh;
-    background-color: #00ff00;
+    height: auto;
+    background-color: #ff7200;
     width: 100vw;
+    padding: 5rem;
+}
+
+.footer-left 
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.footer-right 
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+h4 
+{
+    color: rgb(226, 226, 226);
+}
+.heart 
+{
+    color: red;
+    font-size: 2rem;
+}
+a 
+{
+    color: #fff;
+}
+a:hover 
+{
+    color: rgb(190, 190, 190);
+    transition: .5s ease;
 }
